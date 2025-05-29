@@ -1,0 +1,18 @@
+detekce_obrazku/
+├── best.pt                  # Natrénovaný model YOLOv5
+├── index.py                # Hlavní Python skript s detekcí
+├── yolov5/                 # Klonované YOLOv5 repo (z GitHubu)
+│   ├── models/
+│   ├── utils/
+│   ├── data/
+│   ├── detect.py
+│   ├── train.py
+│   └── ... (další soubory repozitáře)
+├── images/                 # Vstupní obrázky pro detekci
+│   ├── 0250592566.jpg
+│   ├── 0250602168.jpg
+│   └── ...
+├── output/                 # Výstupní složka s detekovanými obrázky (vytvoří se automaticky)
+│   ├── 0250592566.jpg
+│   ├── 0250602168.jpg
+│   └── ...
