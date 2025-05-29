@@ -5,8 +5,8 @@ import os
 MODEL_PATH = "best_test.pt"
 IMAGE_FOLDER = "images"
 OUTPUT_FOLDER = "output"
-CONF_THRESHOLD = 0.5   # Zkus experimentovat 
-IOU_THRESHOLD = 0.5   # funguje nejlépe pro husté objekty
+CONF_THRESHOLD = 0.5  
+IOU_THRESHOLD = 0.5   
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
