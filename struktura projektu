@@ -1,5 +1,5 @@
 detekce_obrazku/
-├── best.pt                  # Natrénovaný model YOLOv5
+├── best_test.pt                  # Natrénovaný model YOLOv5
 ├── index.py                # Hlavní Python skript s detekcí
 ├── yolov5/                 # Klonované YOLOv5 repo (z GitHubu)
 │   ├── models/
